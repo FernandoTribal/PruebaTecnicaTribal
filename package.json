@@ -1,0 +1,11 @@
+{
+  "name": "prueba_practica_tribalworldwide",
+  "version": "1.0.0",
+  "description": "Prueba practica para QA Automatizado",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pablo Arzu",
+  "license": "ISC"
+}
