@@ -4,11 +4,14 @@
   "description": "Prueba practica para QA Automatizado",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test-chrome": "cypress run --spec cypress/e2e/ --browser chrome"
   },
   "author": "Pablo Arzu",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^12.17.3"
+    "cypress": "^12.17.3",
+    "cypress-mochawesome-reporter": "^3.5.1",
+    "cypress-xpath": "^2.0.1"
   }
 }
