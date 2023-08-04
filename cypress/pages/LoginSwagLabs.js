@@ -1,6 +1,6 @@
 
 
-class SmokeTest {
+class LoginSwagLabs {
 
     elements = {
 
@@ -26,4 +26,4 @@ class SmokeTest {
     }
 
 }
-module.exports = new SmokeTest;
+module.exports = new LoginSwagLabs;

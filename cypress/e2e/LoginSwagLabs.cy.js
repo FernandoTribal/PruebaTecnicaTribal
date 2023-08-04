@@ -1,6 +1,6 @@
-import smokeTest from "../pages/smokeTest";
+import LoginSwagLabs from "../pages/LoginSwagLabs";
 
-describe('Smoke Test ', () => {
+describe('Login en Swag Labs ', () => {
 
     const url = 'https://www.saucedemo.com/';
 
@@ -16,12 +16,10 @@ describe('Smoke Test ', () => {
     it('debe hacer login correctamente', () => {
         
         //Iniciar sesion
-        smokeTest.typeUserName( username ); //ingresando username
-        smokeTest.typePassword( password ); //ingresando password
-        smokeTest.clickLoginBtn(); //haciendo clic en "Login"
+        LoginSwagLabs.typeUserName( username ); //ingresando username
+        LoginSwagLabs.typePassword( password ); //ingresando password
+        LoginSwagLabs.clickLoginBtn(); //haciendo clic en "Login"
 
-        
-        
 
 
     });
