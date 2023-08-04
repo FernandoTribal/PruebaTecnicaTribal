@@ -2,7 +2,7 @@ import LoginSwagLabs from "../pages/LoginSwagLabs";
 
 describe('Login en Swag Labs ', () => {
 
-    const url = 'https://www.saucedemo.com/';
+    const url = 'https://www.saucedemo.com';
 
     const username = 'standard_user';
     const password = 'secret_sauce';
