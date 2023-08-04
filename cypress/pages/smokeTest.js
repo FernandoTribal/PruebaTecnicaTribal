@@ -21,3 +21,4 @@ class SmokeTest {
     }
 
 }
+module.exports = new SmokeTest;
