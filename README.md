@@ -8,4 +8,4 @@ Page Object Model - POM
 
 ## Reporte
 * Para reporte html se utilizó la herramienta cypress-mochawesome-reporte
-    para ver el reporte ir a la carpeta cypress y abrir la carpeta reports, luego html y dar clic en index.html
+    
