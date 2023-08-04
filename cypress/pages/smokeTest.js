@@ -10,4 +10,14 @@ class SmokeTest {
 
     }
 
+    typeUserName( username ) {
+        this.elements.username().type( username )
+    }
+    typePassword( password ) {
+        this.elements.Password().type( password )
+    }
+    clickLoginBtn() {
+        this.elements.loginBtn().click()
+    }
+
 }
